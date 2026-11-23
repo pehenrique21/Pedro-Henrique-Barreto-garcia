@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Extrair projeto
+      - name: Extrair projeto 4
         run: unzip -o projeto.zip
       - uses: actions/setup-java@v4
         with:
